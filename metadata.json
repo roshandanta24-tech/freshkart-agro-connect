@@ -1,0 +1,6 @@
+{
+  "name": "FreshKart Agro Connect",
+  "description": "Connecting Farmers Directly to Buyers in Western Odisha. Direct farm-to-buyer agricultural marketplace with transparent rule-based matching, buyer requirements, order tracking, and WhatsApp coordination.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-agro-primary: #2E7D32;
+  --color-agro-dark: #1B5E20;
+  --color-agro-light: #E8F5E9;
+  --color-agro-accent: #F9A825;
+  --color-agro-bg: #F8FAF5;
+  --color-agro-ink: #1A241B;
+  --color-agro-muted: #4A594C;
+  --color-agro-border: #DCE6D9;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #F8FAF5;
+    color: #1A241B;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  button, a, input, select, textarea {
+    outline-color: #2E7D32;
+  }
+
+  :focus-visible {
+    outline: 2px solid #2E7D32;
+    outline-offset: 2px;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.headline-balance {
+  text-wrap: balance;
+}
